@@ -1,14 +1,16 @@
 #include <stdio.h>
-int recuperar (){
-int cemig;
-while (cemig <=100){
-    printf("Recuperando energia....(%d%%)\n", cemig);
-    cemig+=2;
-}
-    printf("Sua energia está no maximo!");
-    return cemig;
-}
-int main(){
-recuperar();
-return 0;
-}
+int main (){
+    int nmb1 = 2;
+    int nmb2 = 5;
+    
+    int soma = nmb1 + nmb2;
+    int subtracao = nmb1 - nmb2;
+    int divisao = nmb1 / nmb2;
+    int multiplicacao = nmb1 * nmb2;
+    
+    printf("soma:%d\n", soma);
+    printf("subtracao:%d\n", subtracao);
+    printf("divisao:%d\n", divisao);
+    printf("multiplicacao:%d\n", multiplicacao);
+    
+    return 0;

@@ -1,21 +1,15 @@
 #include <stdio.h>
-char fogo(){
-    char aceitar = 's';
-    while(aceitar == 's'){
-        printf("\n");
-    printf("ATENÇÃO POPULACÃO, A CIDADE ESTÁ PEGANDO FOGO!!\n");
-    printf("Ir para local seguro?\n");
-    
-    scanf("%s", &aceitar);
-    printf("As chamas foram controladas!");
-    
-    }
-    
-    return aceitar;
-    
-}
+
 int main()
 {
-    fogo();
+    int segredo =0;
+    
+    segredo+=17;
+    segredo*=9;
+    segredo-=8;
+    segredo/=1;
+    
+    printf("O segredo é: %d\n", segredo);
+
     return 0;
 }

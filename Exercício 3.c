@@ -1,19 +1,16 @@
 #include <stdio.h>
-char habilidade(){
-    char aceitar = 's';
-    while(aceitar == 's'){
-        printf("\n");
-    printf("Deseja usar habilidade?\n");
-    scanf("%s", &aceitar);
-    printf("Voce usou a habilidade!");
-    
-    }
-    
-    return aceitar;
-    
-}
-int main()
+
+int main ()
 {
-    habilidade();
+    float altura = 1.69;
+    int idade = 157;
+    char inicial = 'H';
+    double real = 133.44;
+    
+    printf ("Altura eh: %f \n", altura );
+    printf ("A inicial do nome eh: %c \n", inicial);
+    printf ("A idade eh: %d \n",idade);
+    printf ("O valor eh: %lf \n", real);
+  
     return 0;
 }

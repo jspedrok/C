@@ -1,14 +1,9 @@
 #include <stdio.h>
- int comprar_itens (){
- int limite_itens = 3;
-            return limite_itens;
- }
+int main (){
+    int nb1= 2;
+    int nb2= 3;
+    int rst= nb1+nb2;
+    printf("O resultado eh: %d \n", rst);
     
-int main ()
-{  
-          
-        printf("Exercicio 2:\n");
-printf ("itens comprados: %d\n", comprar_itens());
- 
-   return 0;
+    return 0;
 }
